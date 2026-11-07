@@ -1,4 +1,4 @@
-# evertrain-app
+# Evertrain
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,107 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-evertrain-app is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://evertrain.app/
+Evertrain provides a platform that lets users bring their own AI models to coach personal fitness and health. The app captures detailed workout data—including sets, reps, RIR, sleep, mood, and cardio—allowing the AI to generate personalized training programs, track progress, and explain its reasoning. Users can connect large language models such as Claude or ChatGPT, and the system logs every change with a transparent feed. Evertrain emphasizes privacy, giving users control over data and token access, and offers tools for injury prevention, preference learning, and performance optimization.
+
+**Areas:** Company · AI · Fitness · Health · Training
+
+## Evertrain on APIs.io
+
+Everything profiled for Evertrain is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/evertrain-app/](https://apis.io/providers/evertrain-app/)** — or go straight to one of the APIs or properties below.
+
+### APIs (1)
+
+- [Evertrain API](https://apis.io/apis/evertrain-app/evertrain-api/) — Internal API used by Evertrain web app for waitlist and other functions (e.g., POST /api/waitlist). Not publicly documented.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Evertrain App Authentication](https://apis.io/security/evertrain-app/evertrain-app-authentication/)
+- [Evertrain App Domain Security](https://apis.io/security/evertrain-app/evertrain-app-domain-security/)
+
+#### OAuth scopes (1)
+
+The permissions the API asks for.
+
+- [Evertrain App Scopes](https://apis.io/scopes/evertrain-app/evertrain-app-scopes/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Evertrain App Plans Pricing](https://apis.io/plans/evertrain-app/evertrain-app-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Evertrain App Rate Limits](https://apis.io/rate-limits/evertrain-app/evertrain-app-rate-limits/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://evertrain.app/)
+- [Terms of service](https://evertrain.app/terms/)
+- [Privacy policy](https://evertrain.app/privacy/)
+
+## API Evangelist rating
+
+**Kin Score 16.2** — emerging · rubric 0.26.0 · scored 2026-11-07
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 0.0 |
+| Access clarity | 40.0 |
+
+**Agent readiness 5.6** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | documented (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | na |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 22.8** — Health
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/evertrain-app/](https://apis.io/providers/evertrain-app/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Evertrain: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/evertrain-app/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
